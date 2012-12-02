@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    font-family: Futura;
+    font-family: Arial;
     font-size: 12pt;
     background-color: #fff;
   
@@ -18,8 +18,8 @@ h3, h4, h5 { font-size: 120%; }
 .author{font-size: 13px;padding-left:50px;margin:0px 0px 20px 0px;color:#666;}
 
 #categorylist {
-    font-size: 20pt;
-padding: 0px 0px 20px 0px;
+    font-size: 15pt;
+padding: 0px 0px 0px 0px;
     text-align: center; 
     
      /***  CSS Gradient  ***/
