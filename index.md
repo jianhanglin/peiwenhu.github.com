@@ -17,4 +17,9 @@ If you happen to enter here without knowing who I am, [here is my profile.](/pag
   {% endfor %}
 </ul>
 
+##People I admire
 
+[Lynn Yang(in Mandarin)](http://www.lynnyang.co/)  
+[Bret Victor](http://worrydream.com/)
+
+##[My Amazon wish list]( http://amzn.com/w/274A3YF743468)
