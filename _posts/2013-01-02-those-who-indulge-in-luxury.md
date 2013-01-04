@@ -3,7 +3,7 @@ layout: post
 title: "Those who indulge in luxury"
 description: ""
 category: 
-tags: []
+tags: [diary]
 ---
 {% include JB/setup %}
 

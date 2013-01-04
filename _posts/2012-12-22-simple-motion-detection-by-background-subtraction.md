@@ -3,11 +3,11 @@ layout: post
 title: "Simple motion detection by background subtraction"
 description: ""
 category: projects
-tags: FPGA Digilent Nexys Atlys Verilog
+tags: FPGA Digilent Nexys Atlys Verilog I2C VGA HDMI 
 ---
 {% include JB/setup %}
 
-This is a project that my team in EC551 _Advanced digital design with Verilog and FPGA_ has been doing. 
+This is a project([code in Github repository](https://github.com/peiwenhu/ec551)) that my team in EC551 _Advanced digital design with Verilog and FPGA_ has been doing. 
 
 We kind of created the prototype of and due to time limit it was submitted as our final project in that class actually. 
 But much more improvements are needed, so we are still planning to get it on a right and decent track.
