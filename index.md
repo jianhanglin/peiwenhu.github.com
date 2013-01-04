@@ -26,7 +26,7 @@ If you happen to enter here without knowing who I am, [here is my profile.](/pag
 * Networking the physical world(3.7/4.0)
 * Advanced digital design with Verilog and FPGAs(3.7/4.0)
 
-[Transcript](/assets/main/Grades)
+[Transcript](/assets/main/Grades.pdf)
 
 ##### Spring 2013(To be attended)
 
