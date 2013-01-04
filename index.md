@@ -19,22 +19,6 @@ If you happen to enter here without knowing who I am, [here is my profile.](/pag
 
 ## Ongoing projects
 [My Github repositories](https://github.com/peiwenhu)
-## Coursework
-
-##### Fall 2012
-* Computer Architecture(3.7/4.0)
-* Networking the physical world(3.7/4.0)
-* Advanced digital design with Verilog and FPGAs(3.7/4.0)
-
-[Transcript](/assets/main/Grades.pdf)
-
-##### Spring 2013(To be attended)
-
-* Advanced data structure
-* Enterprise Client-Server Software Systems Design
-* High Performance Programming with Multicore and GPUs
-* Introduction to Embedded Systems
-
 ## People I admire
 
 [Lynn Yang(in Mandarin)](http://www.lynnyang.co/)  
