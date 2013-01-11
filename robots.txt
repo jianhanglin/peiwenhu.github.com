@@ -1,2 +1,5 @@
 User-agent: Googlebot
 Disallow: /assets/main/Grades.pdf$
+
+User-agent: Googlebot
+Disallow: /assets/main/MyResume.pdf$
