@@ -23,7 +23,6 @@ Please feel free to contact:  `pewnhu # gmail.com`
 * Networking the physical world(3.7/4.0)
 * Advanced digital design with Verilog and FPGAs(3.7/4.0)
 
-[Transcript](/assets/main/Grades.pdf)
 
 ##### Spring 2013(Current semester)
 
