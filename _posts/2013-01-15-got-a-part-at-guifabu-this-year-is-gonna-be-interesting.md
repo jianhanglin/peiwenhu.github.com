@@ -14,7 +14,7 @@ My room is quiet as always, though filled with all my belongings, water, clothes
 My laptop reflects the light from the lamp near my bed, 
 and it's been mostly like this at night for some weeks.
 
-I joined a team for [Guifabu](www.guifabu.com), a Chinese website focusing on tech & media industries, 
+I joined a team for [Guifabu](http://www.guifabu.com), a Chinese website focusing on tech & media industries, 
 founded by Lynn just for a few weeks.  
 
 So I'm writing this mainly for the convenience to organize my thoughts on what is needed to do and how.  
