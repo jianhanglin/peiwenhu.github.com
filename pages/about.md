@@ -15,19 +15,3 @@ My parents live in Tianjin, China. I used to live in Handan, Tianjin, Beijing an
 [Resume](/assets/main/MyResume.pdf)
 
 Please feel free to contact:  `pewnhu # gmail.com`
-
-## Coursework
-
-##### Fall 2012
-* Computer Architecture(3.7/4.0)
-* Networking the physical world(3.7/4.0)
-* Advanced digital design with Verilog and FPGAs(3.7/4.0)
-
-
-##### Spring 2013(Current semester)
-
-* Advanced data structure
-* Enterprise Client-Server Software Systems Design
-* High Performance Programming with Multicore and GPUs
-* Introduction to Embedded Systems
-
