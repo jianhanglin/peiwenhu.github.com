@@ -2,7 +2,7 @@
 layout: post
 title: "1st article at Guifabu.com"
 description: ""
-category: 
+category: Freelance
 tags: []
 ---
 {% include JB/setup %}
