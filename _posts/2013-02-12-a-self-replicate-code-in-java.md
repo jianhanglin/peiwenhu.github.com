@@ -12,7 +12,7 @@ tags: Java
 
 >So What I did is to put all the code in a string: weirdString.  
 
->Then I split this string into two parts, one before the declaration of the string, one after. And I store the two parts in a String[], and modify the original string in order to convert the '\n' and '\\"' and suchlike to be literal "\n" and "\\"" instead of their escaping function.  
+>Then I split this string into two parts, one before the declaration of the string, one after. And I store the two parts in a String\[\], and modify the original string in order to convert the \\\" and \n and suchlike to be literal, instead of their escaping function.  
 
 >Then print out the first part + the modified string + the second part.  
 
