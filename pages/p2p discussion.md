@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "P2p discussion"
-description: "504 project discussion"
+title: "P2p Discussion"
+description: ""
 ---
 {% include JB/setup %}
 
