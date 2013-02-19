@@ -42,3 +42,34 @@ We should be able to have:
 * Crawling the www.bu.edu domain in under three days.
 * Searching the www.bu.edu domain on two peers in under 10 seconds.
 * The entire system must be able to function without access to the broader Internet.
+
+#The specifications:
+
+##The components of the system:
+
+* Crawler
+* Indexer
+* Search and Administration interface
+* Data Storage
+
+##Crawler:
+
+The intuitive thought of the implementation is to use a kind of set, say a HashSet as 
+a data structure. Then crawl the target website, go through the links there one by one. 
+Each time first compare the link with the elements in the HashSet, if there's already the 
+same thing, that means this link is already crawled. If not, store the content of the web page, 
+do certain operations on it, like store it in the search database, and add it in the HashSet.  
+
+##Indexer:
+
+A _reverse word index_ is used for the efficiency of table searching.  
+
+##Search and Administration interface:
+Made as a web interface provided by a local HTTP servlet with servlet engine.  
+But we are looking for a way to see if we can use java application, since after all 
+we should be able to do the search offline.  
+
+##Data storage:
+
+Use a distributed hash table to store the reverse word index database.  
+
