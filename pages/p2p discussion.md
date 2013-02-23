@@ -19,13 +19,27 @@ description: ""
 
 #what interesting data structures and algorithms may be used in your project
 
-Data structure: distributed hash table.  
+Data structure: 
 
-Algorithms: To be determined  
+* distributed hash table.
+* inverted index.
+* HashSet.
+
+Algorithms:  
+
+* DFS/BFS
+* Particular Hash function
+* routing algorithm
 
 #the envisioned role of each person in the group project and a tentative schedule of goals and deadlines leading up to the project’s completion
 
-To be determined  
+Peiwen: Crawler
+
+Pavas:Indexer
+
+Paul:Data storage
+
+Yuvanaj:Search and Administration interface
 
 #potential modifications and optimizations to the system.
 
