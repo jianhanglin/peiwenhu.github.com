@@ -5,13 +5,13 @@ title: Peiwen Hu's Blog
 ---
 {% include JB/setup %}
 
-Hello, this is my blog, where I will periodically post some stuff about what I've been doing(or perhaps thinking about).
+Hello, this is my blog, where I will once in a thousand years post some stuff about what I've been doing(or perhaps thinking about).
 If you happen to enter here without knowing who I am, [here is my profile.](/pages/about.html)
 <hr class="featurette-divider">
 
 <div class="featurette">
 <h2 class="featurette-heading">Posts</h2>
-<p class="lead">Though I prefer doing rather than talking</p>
+<p class="lead">"talk is cheap"</p>
 </div>
 
 <ul class="posts">
