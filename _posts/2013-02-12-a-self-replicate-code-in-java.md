@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A self-replicate code in Java"
-description: ""
+description: "A sepf-replicate code with help of the java string library... So actually it's more easier than the original C code. But I believe some tricks have the same root."
 category: Study
 tags: Java
 ---

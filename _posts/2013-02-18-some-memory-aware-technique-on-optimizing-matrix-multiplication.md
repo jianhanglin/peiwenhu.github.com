@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Some memory aware technique on optimizing matrix multiplication"
-description: ""
+description: "This is part of what I've been doing on experiments of matrix multiplication optimization."
 category: Study
 tags: memory matrix optimization
+img: "/assets/MatrixMultiplication/mmm.jpg"
 ---
 {% include JB/setup %}
 
