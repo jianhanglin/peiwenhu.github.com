@@ -1,15 +1,18 @@
 ---
 layout: page
 title: Peiwen Hu's Blog
-tagline: Supporting tagline
+
 ---
 {% include JB/setup %}
 
-H  
-ello, this is my blog, where I will periodically post some stuff about what I've been doing(or perhaps thinking about).
+Hello, this is my blog, where I will periodically post some stuff about what I've been doing(or perhaps thinking about).
 If you happen to enter here without knowing who I am, [here is my profile.](/pages/about.html)
+<hr class="featurette-divider">
 
-## Posts
+<div class="featurette">
+<h2 class="featurette-heading">Posts</h2>
+<p class="lead">Though I prefer doing rather than talking</p>
+</div>
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -17,9 +20,12 @@ If you happen to enter here without knowing who I am, [here is my profile.](/pag
   {% endfor %}
 </ul>
 
-## Ongoing projects
-[My Github repositories](https://github.com/peiwenhu)
-## People I admire
+<div class="featurette">
+<h2 class="featurette-heading">Ongoing stuff</h2>
+<a href="http://www.github.com/peiwenhu">my git repositories</a>
+</div>
+
+### People I admire
 
 [Lynn Yang(in Mandarin)](http://www.lynnyang.co/)  
 [Bret Victor](http://worrydream.com/)  
