@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC
+    "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xml:lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:svg='http://www.w3.org/2000/svg'>
+<head><meta http-equiv='Content-type' content='application/xhtml+xml;charset=utf-8' /><title></title></head>
+<body>
+<p>Introduction</p>
+
+<h2 id='flash_technology_overview'>Flash technology overview</h2>
+
+<h3 id='memory_hierarchy'>memory hierarchy:</h3>
+
+<p>The development of memory technology has long been a main force driving the semiconductor industry at a fast pace following Moore&#8217;s law, and its growth is expected to continue with more innovative technology solutions. In terms of whether they can store data without power supply, the types of memory can be categorized mainly as 2 branches(see Fig.1): ￼ <img alt='family,4' src='memoryFamily.png' /></p>
+
+<ul>
+<li>volatile memory: Typical devices are SRAM and DRAM. Although it dominates a number of very important applications including computer main memory and cache, due to its very fast read/write speed, it must require consistent power to keep the data stored, which is the reason that it&#8217;s called volatile.</li>
+
+<li>non-volatile memory: Typical devices are EPROM and Flash. Non-volatility, satisfactory performance, density and cost per bit, these distinct characteristics of non-volatile memory, in particular flash, make it the underlying technology of most storage devices and applications, ranging from memories within mobile phone, camera, embedded systems, to Solid-State Drive as large as 400 GB. (see Fig.2.)</li>
+</ul>
+
+<p><img alt='application,5' src='application.jpeg' /></p>
+
+<h3 id='flash'>Flash:</h3>
+
+<h4 id='flash_history'>Flash history:</h4>
+
+<p>The original concept was presented in 1971 by Frohman-Bentchkowsky, who suggested a MOS transistor structure with a floating gate, that stores charge by avalanche injection[1,2]. Then the erasable programmable read only memory(EEPROM) utilized that concept, and was once a dominant technology for nonvolatile memory. Flash memory derives from EEPROM, a major difference being that EEPROM uses ultraviolet(UV) to erase, whereas flash makes it possible to electrically erase data. Started from 1990s, flash has been increasingly growing both in the maturity of technology and its market share. The feature size scaled from um order of magnitude down to the current state-of-art of 20nm. Before 2000, flash was more of a EPROM replacement, with only less than 2Mb volume of storage, and read/write cycle was limited to 10000 times. Since 2000, flash became widely used in memory market and numerous researches are focused on structure and reliability issues that may hinder further scaling down of flash memory. The trend of reinventing or even substituting flash in order to improve the life time, reliability and performance of nonvolatile memory starts in recent years, with help of emerging technologies including 3D integrated circuit, for making a 3D flash structure, and alternative nonvolatile memory concepts, such as phase change memory.[5]</p>
+
+<h4 id='flash_structure'>Flash structure:</h4>
+
+<p>Most of flash technologies are based on the floating-gate structure initially introduced in 1971. A flash cell is essentially a MOS transistor with floating-gate. The floating-gate is a insulate polysilicon layer between the control gate and the transistor channel, as shown in Fig.3.</p>
+
+<p><img alt='structure,5' src='structure.tiff' /></p>
+
+<p>The material between the control gate and the floating gate is oxide-nitride-oxide(ONO), and an oxide called &#8220;tunnel oxide&#8221; forms a tunnel possible for electron to go through(under certain circumstances, i.e., Channel Hot Electron:CHE) is between the floating-gate and the transistor channel. The floating-gate is effectively isolated by both of these two layers, acting as a charge-trapping element able to store information ideally permanently without power supply. The tunnel oxide is critical since it is the path through which electrons are transported by electrical pulses during programing and erasing, so we will later discuss several reliability issues that emphasize on the tunnel oxide, and possible damages that could occur.</p>
+
+<p>￼The cell has 2 states to represent one bit:</p>
+
+<p>When the charge stored in the floating-gate is neutral, it is considered as a logic &#8220;1&#8221;. And when a negative amount of charge is stored, it represents logic &#8220;0&#8221;. As shown in Fig.4.</p>
+
+<p><img alt='energyBand,4' src='energyBand.png' /></p>
+
+<h4 id='flash_operation'>Flash operation:</h4>
+
+<h5 id='reading'>Reading:</h5>
+
+<p>Reading operation is accomplished by applying a reading voltage on the control gate, and measuring the threshold voltage of the MOS transistor. As depicted in Fig.5, the threshold voltages for logic &#8220;1&#8221; and &#8220;0&#8221; differ by an amount of voltage shift due to the charge state in the floating-gate. In the case of logic &#8220;0&#8221; condition, the negative charge stored counteract the voltage applied on the gate, demanding it to increase the voltage to generate a current between source and drain. Selecting a proper threshold voltage(Vt) makes it possible to determine the charge state in the floating-gate, thus the logic value. If there&#8217;s no current flow when applying Vt, it suggests a &#8220;0&#8221;, and an &#8220;1&#8221; otherwise.</p>
+
+<p><img alt='reading,4' src='reading.png' /></p>
+
+<h5 id='writing'>Writing:</h5>
+
+<h6 id='programming'>Programming:</h6>
+
+<h6 id='erasing'>Erasing:</h6>
+
+<h2 id='flash_limitationsreliability'>Flash limitations/reliability:</h2>
+
+<h2 id='methods_to_improve_reliability'>Methods to improve reliability:</h2>
+
+<h2 id='references'>References</h2>
+
+<ol>
+<li>D. Frohman-Bentchkowsky, “Memory behavior in a floating-gate avalanche-injection MOS (FAMOS) structure,” Appl. Phys. Lett., vol. 18, pp. 332–334, 1971.</li>
+
+<li>“FAMOS – A new semiconductor charge storage device,” Solid State Electron., vol. 17, pp. 517–520, 1974.</li>
+
+<li>S. Mukherjee, T. Chang, R. Pang, M. Knecht, and D. Hu, “A single transistor EEPROM cell and its implementation in a 512 K CMOS EEPROM,” in IEDM Tech. Dig., 1985, pp. 616–619.</li>
+
+<li>Roberto Bez, Emilio Camerlenghi, Alberto Modelli, and Angelo Visconti,&#8221;Introduction to Flash Memory,&#8221; Proceedings of the IEEE vol.91, Issue 4, 2003</li>
+
+<li>CHIH-YUAN LU,&#8221;Nonvolatile Memory Technology: A Driver to Future Nanoelectronics,&#8221; World Scientific,Vol. 2, Issue 1, March 2012 6.</li>
+</ol>
+</body></html>
