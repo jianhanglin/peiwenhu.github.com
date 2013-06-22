@@ -2,8 +2,8 @@
 <!DOCTYPE html PUBLIC
     "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
     "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
-<html xml:lang='en' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/1999/xhtml'>
-<head><meta content='application/xhtml+xml;charset=utf-8' http-equiv='Content-type' /><title>Jeff:</title></head>
+<html xmlns:svg='http://www.w3.org/2000/svg' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head><meta http-equiv='Content-type' content='application/xhtml+xml;charset=utf-8' /><title>Jeff:</title></head>
 <body>
 <h2 id='abstract'>Abstract</h2>
 
@@ -13,7 +13,7 @@
 
 <h3 id='memory_hierarchy'>memory hierarchy:</h3>
 
-<p>The development of memory technology has long been a main force driving the semiconductor industry at a fast pace following Moore&#8217;s law, and its growth is expected to continue with more innovative technology solutions. In terms of whether they can store data without power supply, the types of memory can be categorized mainly as 2 branches(see Fig.1): ￼ <img alt='1,family,4' src='memoryFamily.png' /></p>
+<p>The development of memory technology has long been a main force driving the semiconductor industry at a fast pace following Moore&#8217;s law, and its growth is expected to continue with more innovative technology solutions. In terms of whether they can store data without power supply, the types of memory can be categorized mainly as 2 branches(see Fig.1): ￼ <img alt='1,family,8' src='memoryFamily.png' /></p>
 
 <ul>
 <li>volatile memory: Typical devices are SRAM and DRAM. Although it dominates a number of very important applications including computer main memory and cache, due to its very fast read/write speed, it must require consistent power to keep the data stored, which is the reason that it&#8217;s called volatile.</li>
@@ -93,13 +93,27 @@
 
 <p><img alt='7,scale,8' src='scale.tiff' /></p>
 
-<h3 id='threshold_voltage_distribution'>Threshold voltage distribution:</h3>
-
 <h3 id='program_disturb'>Program disturb:</h3>
+
+<p>Since bit lines and word lines are all shared among rows and columns of cells, neighboring cells have to tolerate high electrical stress applied on bit line or word line while programming target cells. This mechanism that may result in data corruption is called program disturb. There are two types of program disturb, row disturb and column disturb, regarding respectively that the affected cells share the same bit line or column line with the written cell.</p>
 
 <h3 id='data_retention'>Data retention:</h3>
 
+<p>A non-volatile memory should have capability of maintaining data for at least 10 years. It would be intolerable if the rate of charge loss, in this case, the reduction of charges in the floating-gate, is too high. Considering that the number of electrons in a sub 20nm flash cell mentioned previously is only around 15, it&#8217;s of critical importance to avoid potential failure cause. Possible causes are:</p>
+
+<ol>
+<li>defects in tunnel oxide;</li>
+
+<li>defects in the interpoly dielectrics/the ONO layer;</li>
+
+<li>mobile ion contamination;</li>
+
+<li>detraining of charge from insulating layers surrounding the floating-gate.[4]</li>
+</ol>
+
 <h3 id='programmingerasing_endurance'>Programming/Erasing endurance:</h3>
+
+<p>A 24nm SSD is specified for 10000 order of magnitude program/erase cycles. When scaling down to 20nm, SSD has a less ability of 1000 order of magnitude program/erase cycles. Thus companies resort in separating part of the SSD as backup storage, and allow less volume to be available at one time, providing the backup storage only to substitute those working cells suffering errors.</p>
 
 <h2 id='methods_to_improve_reliability'>Methods to improve reliability:</h2>
 
